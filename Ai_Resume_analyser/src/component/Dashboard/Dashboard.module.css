@@ -1,7 +1,9 @@
 .Dashboard{
   display: flex;
-  flex: 0.8-0;
-  height: 100vh;
+  flex: 0.8;
+  /* height: 100vh; */
+  min-height: 100vh;
+  height: auto;
   overflow: auto;
   padding: 50px;
   justify-content: space-between;
@@ -21,12 +23,12 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 .DashboardHeaderTitle{
-  font-size: 26px;
+  font-size: 50px;
   font-weight: 600;
 }
 
 .DashboardHeaderLargeTitle{
-  font-size: 52px;
+  font-size: 50px;
 }
 
 .alertInfo{
@@ -36,7 +38,7 @@
   padding: 15px 20px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   margin: 40px 0;
-  font-size: 16px;
+  font-size: 14px;
   background-color: white;
 }
 
@@ -56,7 +58,7 @@
   padding: 15px 30px;
   box-sizing: border-box;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  font-size: 22px;
+  font-size: 20px;
 }
 .DashboardInputField{
   display: flex;
@@ -67,7 +69,7 @@
   cursor: pointer;
   padding: 20px 40px;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   background: linear-gradient(
 135deg,
 #251246,
@@ -83,7 +85,7 @@ input{
 .jobDesc{
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 20px;
   box-sizing: border-box;
 }
 .textarea{
@@ -108,7 +110,7 @@ input{
 #251246,
 #4C1D95
 );
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   cursor: pointer;
 }
@@ -117,11 +119,11 @@ input{
   height: fit-content;
   box-sizing: border-box;
   .ProfileCard{
-    background: linear-gradient(
-        135deg,
-        #ce4343,
-        #4c1eaa
-    );
+  background: linear-gradient(
+    135deg,
+    #5B21B6,
+    #312E81
+  );
 }
   display: flex;
   flex-direction: column;
@@ -143,7 +145,7 @@ input{
   background-color:  rgb(99, 88, 165);
 }
 .content{
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 700;
 
 }
