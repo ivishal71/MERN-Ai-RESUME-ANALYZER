@@ -4,8 +4,9 @@
   "description": "backend for AI MERN project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +16,12 @@
     "express": "^5.2.1",
     "mongoose": "^9.6.3",
     "multer": "^2.1.1",
-    "nodemon": "^3.1.14",
     "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
